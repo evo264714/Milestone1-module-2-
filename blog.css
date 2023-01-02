@@ -1,0 +1,42 @@
+.header{
+    height: 500px;
+    /* background-image: url('baby.jpg'); */
+    /* background-image: url(../house1.jpg); */
+    /* background-image: url(../Images/img1.jpg); */
+    background-image: url(../Images/img2.jpg);
+    background-size: contain;
+    background-color: brown;
+    background-repeat: no-repeat;
+    color: white;
+    background-blend-mode: multiply;
+
+    /* background-position: bottom right; */
+
+
+}
+h3{
+    color: magenta;
+    text-decoration: underline wavy;
+}
+p{
+    color: blueviolet;
+}
+.page-title{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+span{
+    border: 1px solid peru;
+    height: 200px;
+    width: 100px;
+    margin-left: 20px;
+    display: none;
+}
+.blog{
+    background-color: peru;
+    box-shadow: 10px 10px 10px gray;
+    margin-bottom: 100px;
+}

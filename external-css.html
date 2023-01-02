@@ -4,34 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs</title>
-    <style>
-        *{
-            margin: 0;
-        }
-        .blog{
-            background-color: lightsalmon;
-            border: 2px 5px 8px solid red;
-            border-radius: 20px;
-            padding: 20px 40px 50px 10px;
-            margin: 40px 50px;
-            width: 50%;
-            height: 400px;
-            /* margin-left: 10px;
-            margin-top: 60px; */
-
-            /* border-width: 5px;
-            border-style: dashed;
-            border-color: brown; */
-
-
-        }
-    </style>
+    <title>External CSS</title>
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/list.css">
 </head>
 <body>
+    <header class="header">
+        <h2 class="page-title">Welcome To My Website</h2>
+    </header>
+
     <div class="blog">
-        <h3>My first blog</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis, aliquam rem optio et perferendis, ipsam quos nam beatae aspernatur aliquid, eaque quidem culpa tenetur. Dolorem, beatae! Exercitationem perspiciatis quo fugit soluta possimus dolorem ab autem repudiandae, explicabo cum corporis pariatur alias. Non eligendi quam quidem nesciunt harum? Esse, cumque.</p>
+        <h3 style="text-align: center; ">My first blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis, aliquam rem optio et perferendis, ipsam quos nam beatae aspernatur <span style="color: red;">aliquid, eaque quidem</span> culpa tenetur. Dolorem, beatae! Exercitationem perspiciatis quo fugit soluta possimus dolorem ab autem repudiandae, explicabo cum corporis pariatur alias. Non eligendi quam quidem nesciunt harum? Esse, cumque. <a href="https://www.facebook.com">Visit our website</a></p>
     </div>
     <div class="blog">
         <h3>My second blog</h3>
@@ -41,5 +25,19 @@
         <h3>My third blog</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis, aliquam rem optio et perferendis, ipsam quos nam beatae aspernatur aliquid, eaque quidem culpa tenetur. Dolorem, beatae! Exercitationem perspiciatis quo fugit soluta possimus dolorem ab autem repudiandae, explicabo cum corporis pariatur alias. Non eligendi quam quidem nesciunt harum? Esse, cumque.</p>
     </div>
+    <ul>
+        <li>First</li>
+        <li>Second</li>
+    </ul>
+    <ol>
+        <li style="border: 2px solid red;">Inline Style</li>
+        <li>Internal Style</li>
+        <li>External Style</li>
+    </ol>
+    <ul>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ul>
 </body>
 </html>
